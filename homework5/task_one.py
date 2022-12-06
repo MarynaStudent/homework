@@ -74,7 +74,7 @@ while True:
     else:
         result['success'] = True
         result['phone'] = phone
-        result['operator'] = operator[phone[0:6]]
+        result['operator'] = operator[phone[0:7]]
         
         print(result)
     
