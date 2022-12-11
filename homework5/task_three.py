@@ -13,10 +13,3 @@ find = input('Введите букву: ').lower()
 count = text.count(find)
 print(count)
 f.close()
-
-
-
-#text = input('text:').lower()
-#find = input('find:').lower()
-#count = text.count(find)
-#print(count)
