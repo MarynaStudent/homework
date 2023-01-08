@@ -59,7 +59,7 @@ def is_right_angle_triangle(a, b, c):
         print('if 1')
         result['success'] = True
         result['description'] = 'the triangle is right-angled'
-        if a + b == c: 
+        if a**2 + b**2 == c**2: 
             print('if 2')
             result['success'] = True
             result['description'] = 'the triangle is right-angled'
@@ -75,7 +75,7 @@ def is_right_angle_triangle(a, b, c):
     return result 
 
 
-result = is_right_angle_triangle(11, 11, 21)
+result = is_right_angle_triangle(3, 5, 9)
 print(result)
 
 
