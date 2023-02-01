@@ -13,7 +13,7 @@
 9) Принт на кружке:
    a. картинка - https://drive.google.com/file/d/1fxWkWDZeI12D3tFi3EVTJEayymrFKGze/view?usp=sharing
    b. разрешение - 300 dpi
-   с. расположение - наружняя поверхность кружки, слева от ручки
+   с. расположение - расположить картинку как в прилагаемом примере https://drive.google.com/file/d/1S8pHmGaYEX0QwDEXu5jMnFsuUZnX4qm9/view?usp=sharing
    d. метод нанесения принта - сублимация(термопернос)
 10) Термопеносимость кружки: 
    a. Жидкость - Мах - 100ºС, Min - -20ºС
