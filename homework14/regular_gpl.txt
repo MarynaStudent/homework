@@ -1,0 +1,6 @@
+https://www.gnu.org/licenses/gpl-3.0.txt . По этому файлу (выкачивать через curl или wget)
+curl -o /Users/user/Dropbox/Mac/Desktop/linux/file https://www.gnu.org/licenses/gpl-3.0.txt
+1. Написать регулярное выражение, которое будет выводить все строки, содержащие GNU/GPL,Linux.
+grep -E 'GNU/GPL,Linux' file
+2. Воспроизвести (для себя) регулярное выражение, которое было написано на паре: "^[A-Z].*\.$"
+grep -E "^[A-Z].*\.$" file
