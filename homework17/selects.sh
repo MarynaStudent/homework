@@ -3,9 +3,12 @@
 Если Нет, то выдать сообщение “Уходи дверь закрой”
 
 #!/bin/bash
-printf "Do you want to install python?"
-read answer
+PS3= "Do you want to install python?"
+echo
+select answer in "yes" "no"
+do
 case $answer in
-Yes) echo "You chose to install python" ;;
-No) echo "Go away close the door" ;;
-esac
+ yes) echo "You chose to install python" ;;
+ no) echo "Go away close the door" ;;
+ esac && break
+done
